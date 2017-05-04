@@ -1,0 +1,85 @@
+<regular_2_5_13.xml>
+  <quests>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_2_5_13_main</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <or>
+            <vehicleDamage>
+              <attackReason>	0	</attackReason>
+              <eventCount>
+              </eventCount>
+              <greaterOrEqual>	6	</greaterOrEqual>
+            </vehicleDamage>
+            <results>
+              <key>stunNum</key>
+              <greaterOrEqual>	8	</greaterOrEqual>
+            </results>
+            <unit>
+              <or>
+                <unitVehicleDamage>
+                  <attackReason>	0	</attackReason>
+                  <eventCount>
+                  </eventCount>
+                  <greaterOrEqual>	6	</greaterOrEqual>
+                </unitVehicleDamage>
+                <results>
+                  <key>stunNum</key>
+                  <greaterOrEqual>	8	</greaterOrEqual>
+                </results>
+              </or>
+            </unit>
+          </or>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <freeXP>	750	</freeXP>
+        <credits>	50000	</credits>
+      </bonus>
+    </potapovQuest>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_2_5_13_add</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <and>
+            <or>
+              <vehicleDamage>
+                <attackReason>	0	</attackReason>
+                <eventCount>
+                </eventCount>
+                <greaterOrEqual>	6	</greaterOrEqual>
+              </vehicleDamage>
+              <results>
+                <key>stunNum</key>
+                <greaterOrEqual>	8	</greaterOrEqual>
+              </results>
+              <unit>
+                <or>
+                  <unitVehicleDamage>
+                    <attackReason>	0	</attackReason>
+                    <eventCount>
+                    </eventCount>
+                    <greaterOrEqual>	6	</greaterOrEqual>
+                  </unitVehicleDamage>
+                  <results>
+                    <key>stunNum</key>
+                    <greaterOrEqual>	8	</greaterOrEqual>
+                  </results>
+                </or>
+              </unit>
+            </or>
+            <win>
+            </win>
+          </and>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <freeXP>	750	</freeXP>
+      </bonus>
+    </potapovQuest>
+  </quests>
+</regular_2_5_13.xml>

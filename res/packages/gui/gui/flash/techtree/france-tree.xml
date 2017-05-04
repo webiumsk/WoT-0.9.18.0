@@ -1,0 +1,412 @@
+<france-tree.xml>
+  <settings>normal</settings>
+  <grid>grid_1<rows>	10	</rows><columns>	10	</columns></grid>
+  <nodes>
+    <F01_RenaultFT>
+      <row>	1	</row>
+      <column>	1	</column>
+      <lines>
+        <F30_RenaultFT_AC>
+        </F30_RenaultFT_AC>
+        <F02_D1>
+        </F02_D1>
+        <F12_Hotchkiss_H35>
+        </F12_Hotchkiss_H35>
+        <F50_FCM36_20t>
+        </F50_FCM36_20t>
+        <F49_RenaultR35>
+        </F49_RenaultR35>
+        <F20_RenaultBS>
+        </F20_RenaultBS>
+      </lines>
+    </F01_RenaultFT>
+    <F30_RenaultFT_AC>
+      <row>	1	</row>
+      <column>	2	</column>
+      <lines>
+        <F52_RenaultUE57>
+        </F52_RenaultUE57>
+      </lines>
+    </F30_RenaultFT_AC>
+    <F02_D1>
+      <row>	4	</row>
+      <column>	2	</column>
+      <lines>
+        <F03_D2>
+        </F03_D2>
+      </lines>
+    </F02_D1>
+    <F12_Hotchkiss_H35>
+      <row>	5	</row>
+      <column>	2	</column>
+      <lines>
+        <F44_Somua_S35>
+        </F44_Somua_S35>
+      </lines>
+    </F12_Hotchkiss_H35>
+    <F50_FCM36_20t>
+      <row>	6	</row>
+      <column>	2	</column>
+      <lines>
+        <F13_AMX38>
+        </F13_AMX38>
+      </lines>
+    </F50_FCM36_20t>
+    <F49_RenaultR35>
+      <row>	7	</row>
+      <column>	2	</column>
+      <lines>
+        <F13_AMX38>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </F13_AMX38>
+      </lines>
+    </F49_RenaultR35>
+    <F20_RenaultBS>
+      <row>	10	</row>
+      <column>	2	</column>
+      <lines>
+        <F21_Lorraine39_L_AM>
+        </F21_Lorraine39_L_AM>
+      </lines>
+    </F20_RenaultBS>
+    <F52_RenaultUE57>
+      <row>	1	</row>
+      <column>	3	</column>
+      <lines>
+        <F32_Somua_Sau_40>
+        </F32_Somua_Sau_40>
+      </lines>
+    </F52_RenaultUE57>
+    <F27_FCM_36Pak40>
+      <row>	2	</row>
+      <column>	3	</column>
+    </F27_FCM_36Pak40>
+    <F03_D2>
+      <row>	4	</row>
+      <column>	3	</column>
+      <lines>
+        <F04_B1>
+        </F04_B1>
+      </lines>
+    </F03_D2>
+    <F44_Somua_S35>
+      <row>	5	</row>
+      <column>	3	</column>
+      <lines>
+        <F70_SARL42>
+        </F70_SARL42>
+      </lines>
+    </F44_Somua_S35>
+    <F13_AMX38>
+      <row>	6	</row>
+      <column>	3	</column>
+      <lines>
+        <F14_AMX40>
+        </F14_AMX40>
+      </lines>
+    </F13_AMX38>
+    <F21_Lorraine39_L_AM>
+      <row>	10	</row>
+      <column>	3	</column>
+      <lines>
+        <F66_AMX_Ob_Am105>
+        </F66_AMX_Ob_Am105>
+      </lines>
+    </F21_Lorraine39_L_AM>
+    <F32_Somua_Sau_40>
+      <row>	1	</row>
+      <column>	4	</column>
+      <lines>
+        <F33_S_35CA>
+        </F33_S_35CA>
+      </lines>
+    </F32_Somua_Sau_40>
+    <F70_SARL42>
+      <row>	5	</row>
+      <column>	4	</column>
+      <lines>
+        <F11_Renault_G1R>
+        </F11_Renault_G1R>
+      </lines>
+    </F70_SARL42>
+    <F04_B1>
+      <row>	4	</row>
+      <column>	4	</column>
+      <lines>
+        <F05_BDR_G1B>
+        </F05_BDR_G1B>
+      </lines>
+    </F04_B1>
+    <F14_AMX40>
+      <row>	6	</row>
+      <column>	4	</column>
+      <lines>
+        <F62_ELC_AMX>
+        </F62_ELC_AMX>
+      </lines>
+    </F14_AMX40>
+    <F66_AMX_Ob_Am105>
+      <row>	10	</row>
+      <column>	4	</column>
+      <lines>
+        <F22_AMX_105AM>
+        </F22_AMX_105AM>
+      </lines>
+    </F66_AMX_Ob_Am105>
+    <F33_S_35CA>
+      <row>	1	</row>
+      <column>	5	</column>
+      <lines>
+        <F34_ARL_V39>
+        </F34_ARL_V39>
+      </lines>
+    </F33_S_35CA>
+    <F05_BDR_G1B>
+      <row>	4	</row>
+      <column>	5	</column>
+      <lines>
+        <F06_ARL_44>
+        </F06_ARL_44>
+      </lines>
+    </F05_BDR_G1B>
+    <F11_Renault_G1R>
+      <row>	5	</row>
+      <column>	5	</column>
+      <lines>
+        <F06_ARL_44>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </F06_ARL_44>
+      </lines>
+    </F11_Renault_G1R>
+    <F62_ELC_AMX>
+      <row>	6	</row>
+      <column>	5	</column>
+      <lines>
+        <F15_AMX_12t>
+        </F15_AMX_12t>
+      </lines>
+    </F62_ELC_AMX>
+    <F28_105_leFH18B2>
+      <row>	9	</row>
+      <column>	5	</column>
+    </F28_105_leFH18B2>
+    <F22_AMX_105AM>
+      <row>	10	</row>
+      <column>	5	</column>
+      <lines>
+        <F23_AMX_13F3AM>
+        </F23_AMX_13F3AM>
+      </lines>
+    </F22_AMX_105AM>
+    <F34_ARL_V39>
+      <row>	1	</row>
+      <column>	6	</column>
+      <lines>
+        <F35_AMX_AC_Mle1946>
+        </F35_AMX_AC_Mle1946>
+      </lines>
+    </F34_ARL_V39>
+    <F06_ARL_44>
+      <row>	4	</row>
+      <column>	6	</column>
+      <lines>
+        <F07_AMX_M4_1945>
+        </F07_AMX_M4_1945>
+      </lines>
+    </F06_ARL_44>
+    <F15_AMX_12t>
+      <row>	6	</row>
+      <column>	6	</column>
+      <lines>
+        <F16_AMX_13_75>
+        </F16_AMX_13_75>
+        <F23_AMX_13F3AM>
+          <line>	vertical	</line>
+          <outPin>BM</outPin>
+          <inPin>TM</inPin>
+        </F23_AMX_13F3AM>
+      </lines>
+    </F15_AMX_12t>
+    <F23_AMX_13F3AM>
+      <row>	10	</row>
+      <column>	6	</column>
+      <lines>
+        <F24_Lorraine155_50>
+        </F24_Lorraine155_50>
+      </lines>
+    </F23_AMX_13F3AM>
+    <F35_AMX_AC_Mle1946>
+      <row>	1	</row>
+      <column>	7	</column>
+      <lines>
+        <F36_AMX_AC_Mle1948>
+        </F36_AMX_AC_Mle1948>
+      </lines>
+    </F35_AMX_AC_Mle1946>
+    <F07_AMX_M4_1945>
+      <row>	4	</row>
+      <column>	7	</column>
+      <lines>
+        <F08_AMX_50_100>
+        </F08_AMX_50_100>
+      </lines>
+    </F07_AMX_M4_1945>
+    <F69_AMX13_57_100>
+      <row>	5	</row>
+      <column>	7	</column>
+    </F69_AMX13_57_100>
+    <F16_AMX_13_75>
+      <row>	6	</row>
+      <column>	7	</column>
+      <lines>
+        <F87_Batignolles-Chatillon_12t>
+        </F87_Batignolles-Chatillon_12t>
+      </lines>
+    </F16_AMX_13_75>
+    <F24_Lorraine155_50>
+      <row>	10	</row>
+      <column>	7	</column>
+      <lines>
+        <F25_Lorraine155_51>
+        </F25_Lorraine155_51>
+      </lines>
+    </F24_Lorraine155_50>
+    <F36_AMX_AC_Mle1948>
+      <row>	1	</row>
+      <column>	8	</column>
+      <lines>
+        <F37_AMX50_Foch>
+        </F37_AMX50_Foch>
+      </lines>
+    </F36_AMX_AC_Mle1948>
+    <F84_Somua_SM>
+      <row>	2	</row>
+      <column>	8	</column>
+    </F84_Somua_SM>
+    <F68_AMX_Chasseur_de_char_46>
+      <row>	3	</row>
+      <column>	8	</column>
+    </F68_AMX_Chasseur_de_char_46>
+    <F08_AMX_50_100>
+      <row>	4	</row>
+      <column>	8	</column>
+      <lines>
+        <F09_AMX_50_120>
+        </F09_AMX_50_120>
+      </lines>
+    </F08_AMX_50_100>
+    <F65_FCM_50t>
+      <row>	5	</row>
+      <column>	8	</column>
+    </F65_FCM_50t>
+    <F87_Batignolles-Chatillon_12t>
+      <row>	6	</row>
+      <column>	8	</column>
+      <lines>
+        <F75_Char_de_25t>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </F75_Char_de_25t>
+        <F17_AMX_13_90>
+        </F17_AMX_13_90>
+        <F71_AMX_30_prototype>
+          <line>H_Diag</line>
+        </F71_AMX_30_prototype>
+      </lines>
+    </F87_Batignolles-Chatillon_12t>
+    <F73_M4A1_Revalorise>
+      <row>	7	</row>
+      <column>	8	</column>
+    </F73_M4A1_Revalorise>
+    <F74_AMX_M4_1949>
+      <row>	8	</row>
+      <column>	8	</column>
+    </F74_AMX_M4_1949>
+    <F19_Lorraine40t>
+      <row>	9	</row>
+      <column>	8	</column>
+    </F19_Lorraine40t>
+    <F25_Lorraine155_51>
+      <row>	10	</row>
+      <column>	8	</column>
+      <lines>
+        <F67_Bat_Chatillon155_55>
+        </F67_Bat_Chatillon155_55>
+      </lines>
+    </F25_Lorraine155_51>
+    <F37_AMX50_Foch>
+      <row>	1	</row>
+      <column>	9	</column>
+      <lines>
+        <F64_AMX_50Fosh_155>
+        </F64_AMX_50Fosh_155>
+      </lines>
+    </F37_AMX50_Foch>
+    <F09_AMX_50_120>
+      <row>	4	</row>
+      <column>	9	</column>
+      <lines>
+        <F10_AMX_50B>
+        </F10_AMX_50B>
+      </lines>
+    </F09_AMX_50_120>
+    <F75_Char_de_25t>
+      <row>	5	</row>
+      <column>	9	</column>
+      <lines>
+        <F18_Bat_Chatillon25t>
+        </F18_Bat_Chatillon25t>
+      </lines>
+    </F75_Char_de_25t>
+    <F17_AMX_13_90>
+      <row>	6	</row>
+      <column>	9	</column>
+      <lines>
+        <F88_AMX_13_105>
+        </F88_AMX_13_105>
+      </lines>
+    </F17_AMX_13_90>
+    <F71_AMX_30_prototype>
+      <row>	7	</row>
+      <column>	9	</column>
+      <lines>
+        <F72_AMX_30>
+        </F72_AMX_30>
+      </lines>
+    </F71_AMX_30_prototype>
+    <F67_Bat_Chatillon155_55>
+      <row>	10	</row>
+      <column>	9	</column>
+      <lines>
+        <F38_Bat_Chatillon155_58>
+        </F38_Bat_Chatillon155_58>
+      </lines>
+    </F67_Bat_Chatillon155_55>
+    <F64_AMX_50Fosh_155>
+      <row>	1	</row>
+      <column>	10	</column>
+    </F64_AMX_50Fosh_155>
+    <F10_AMX_50B>
+      <row>	4	</row>
+      <column>	10	</column>
+    </F10_AMX_50B>
+    <F18_Bat_Chatillon25t>
+      <row>	5	</row>
+      <column>	10	</column>
+    </F18_Bat_Chatillon25t>
+    <F88_AMX_13_105>
+      <row>	6	</row>
+      <column>	10	</column>
+    </F88_AMX_13_105>
+    <F72_AMX_30>
+      <row>	7	</row>
+      <column>	10	</column>
+    </F72_AMX_30>
+    <F38_Bat_Chatillon155_58>
+      <row>	10	</row>
+      <column>	10	</column>
+    </F38_Bat_Chatillon155_58>
+  </nodes>
+</france-tree.xml>

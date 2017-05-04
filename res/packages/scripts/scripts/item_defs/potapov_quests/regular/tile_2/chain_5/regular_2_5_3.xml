@@ -1,0 +1,50 @@
+<regular_2_5_3.xml>
+  <quests>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_2_5_3_main</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <and>
+            <vehicleDamage>
+              <classes>heavyTank AT-SPG</classes>
+              <whenStunCaused>
+              </whenStunCaused>
+              <eventCount>
+              </eventCount>
+              <greaterOrEqual>	4	</greaterOrEqual>
+            </vehicleDamage>
+          </and>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <credits>	100000	</credits>
+      </bonus>
+    </potapovQuest>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_2_5_3_add</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <and>
+            <vehicleDamage>
+              <classes>heavyTank AT-SPG</classes>
+              <whenStunCaused>
+              </whenStunCaused>
+              <eventCount>
+              </eventCount>
+              <greaterOrEqual>	4	</greaterOrEqual>
+            </vehicleDamage>
+            <win>
+            </win>
+          </and>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <credits>	50000	</credits>
+      </bonus>
+    </potapovQuest>
+  </quests>
+</regular_2_5_3.xml>

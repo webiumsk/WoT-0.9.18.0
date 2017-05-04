@@ -1,0 +1,60 @@
+<18_cliff.xml>
+  <name>#arenas:18_cliff/name</name>
+  <description>#arenas:18_cliff/description</description>
+  <geometry>spaces/18_cliff</geometry>
+  <roundLength>	900	</roundLength>
+  <boundingBox>
+    <bottomLeft>-500.0 -500.0</bottomLeft>
+    <upperRight>500.0 500.0</upperRight>
+  </boundingBox>
+  <minimap>spaces/18_cliff/mmap.dds</minimap>
+  <vehicleCamouflageKind>summer</vehicleCamouflageKind>
+  <umbraEnabled>	1	</umbraEnabled>
+  <batchingEnabled>	0	</batchingEnabled>
+  <wwloadingMusic>music_euro_vilage</wwloadingMusic>
+  <wwambientSound>ambient_wind_autumn_01</wwambientSound>
+  <wwDefaultReverb>
+    <auxBus>AUX_env_Mountain</auxBus>
+    <controlValue>1.0</controlValue>
+  </wwDefaultReverb>
+  <soundRemapping>
+    <loadBanks>
+      <bank>env_Mountain.bnk</bank>
+    </loadBanks>
+  </soundRemapping>
+  <gameplayTypes>
+    <ctf>
+      <teamBasePositions>
+        <team1>
+          <position1>	-273.785700 -436.600900	</position1>
+        </team1>
+        <team2>
+          <position1>	-251.606300 434.591000	</position1>
+        </team2>
+      </teamBasePositions>
+    </ctf>
+    <assault2>
+      <winnerIfTimeout>	1	</winnerIfTimeout>
+      <winnerIfExtermination>	1	</winnerIfExtermination>
+      <teamSpawnPoints>
+        <team1>
+        </team1>
+        <team2>
+          <position>-285.944 -451.039</position>
+        </team2>
+      </teamSpawnPoints>
+      <teamBasePositions>
+        <team1>
+          <position1>	-252.066500 434.820900	</position1>
+          <position2>	228.184700 176.506900	</position2>
+        </team1>
+        <team2>
+        </team2>
+      </teamBasePositions>
+    </assault2>
+  </gameplayTypes>
+  <mapActivities>
+  </mapActivities>
+  <roadMap>
+  </roadMap>
+</18_cliff.xml>

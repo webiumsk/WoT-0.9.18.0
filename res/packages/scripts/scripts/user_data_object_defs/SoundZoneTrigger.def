@@ -1,0 +1,33 @@
+<soundzonetrigger.def>
+  <Domain>CLIENT</Domain>
+  <Properties>
+    <ZoneEnter>
+      <Type>STRING</Type>
+      <Editable>	True	</Editable>
+      <Default>
+      </Default>
+    </ZoneEnter>
+    <ZoneExit>
+      <Type>STRING</Type>
+      <Editable>	True	</Editable>
+      <Default>
+      </Default>
+    </ZoneExit>
+    <Size>
+      <Type>VECTOR2</Type>
+      <Editable>	True	</Editable>
+      <Default>5.0 5.0</Default>
+    </Size>
+    <Reverb>
+      <Type>STRING</Type>
+      <Editable>	True	</Editable>
+      <Default>
+      </Default>
+    </Reverb>
+    <ReverbLevel>
+      <Type>UINT8</Type>
+      <Editable>	True	</Editable>
+      <Default>	1	</Default>
+    </ReverbLevel>
+  </Properties>
+</soundzonetrigger.def>

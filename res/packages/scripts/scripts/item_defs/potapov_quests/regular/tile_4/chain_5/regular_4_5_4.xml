@@ -1,0 +1,48 @@
+<regular_4_5_4.xml>
+  <quests>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_4_5_4_main</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <vehicleDamage>
+            <classes>heavyTank AT-SPG</classes>
+            <whenStunCaused>
+            </whenStunCaused>
+            <stunDuration>
+            </stunDuration>
+            <greaterOrEqual>	120	</greaterOrEqual>
+          </vehicleDamage>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <credits>	300000	</credits>
+      </bonus>
+    </potapovQuest>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_4_5_4_add</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <and>
+            <vehicleDamage>
+              <classes>heavyTank AT-SPG</classes>
+              <stunDuration>
+              </stunDuration>
+              <greaterOrEqual>	120	</greaterOrEqual>
+            </vehicleDamage>
+            <isAlive>
+            </isAlive>
+            <win>
+            </win>
+          </and>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <credits>	150000	</credits>
+      </bonus>
+    </potapovQuest>
+  </quests>
+</regular_4_5_4.xml>

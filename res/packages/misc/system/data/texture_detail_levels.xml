@@ -1,0 +1,302 @@
+<texture_detail_levels.xml>
+  <rule>
+    <lodMode>	1	</lodMode>
+    <format>	DXT1	</format>
+    <pattern>.*</pattern>
+  </rule>
+  <rule>
+    <streamable>	false	</streamable>
+    <lodMode>	0	</lodMode>
+    <pattern>.*(\.thumbnail\.).*</pattern>
+  </rule>
+  <rule>
+    <lodMode>	0	</lodMode>
+    <pattern>.*(lightcube|REM.dds|REM_|PMREM).*</pattern>
+  </rule>
+  <directory>
+    <path>content</path>
+    <rule>
+      <allowSplit>	true	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+  </directory>
+  <directory>
+    <path>flora</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+  </directory>
+  <directory>
+    <path>gui</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+    <directory>
+      <path>	maps	</path>
+      <directory>
+        <path>	vehicles	</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <format>	DXT3	</format>
+          <pattern>.*(decal|sticker).*</pattern>
+        </rule>
+      </directory>
+    </directory>
+  </directory>
+  <directory>
+    <path>	maps	</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+    <directory>
+      <path>fx</path>
+      <rule>
+        <lodMode>	0	</lodMode>
+        <format>	DXT3	</format>
+        <pattern>.*(sticker).*</pattern>
+      </rule>
+    </directory>
+    <directory>
+      <path>landscape</path>
+      <rule>
+        <lodMode>	0	</lodMode>
+        <pattern>.*color_tex.*(\.dds)$</pattern>
+      </rule>
+    </directory>
+    <directory>
+      <path>	skyboxes	</path>
+      <rule>
+        <compressHDR>	true	</compressHDR>
+        <lodMode>	0	</lodMode>
+        <formatCompressed>	DXT5	</formatCompressed>
+        <pattern>.*(_hdr\.dds)$</pattern>
+      </rule>
+    </directory>
+    <directory>
+      <path>spots</path>
+      <rule>
+        <lodMode>	0	</lodMode>
+        <pattern>.*</pattern>
+      </rule>
+    </directory>
+  </directory>
+  <directory>
+    <path>objects</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+  </directory>
+  <directory>
+    <path>particles</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+  </directory>
+  <directory>
+    <path>resources</path>
+    <directory>
+      <path>	maps	</path>
+      <rule>
+        <allowSplit>	false	</allowSplit>
+        <lodMode>	0	</lodMode>
+        <pattern>.*</pattern>
+      </rule>
+      <directory>
+        <path>	mmap	</path>
+        <rule>
+          <version>	1	</version>
+          <lodMode>	0	</lodMode>
+          <mipCount>	0	</mipCount>
+          <horizontalMips>	false	</horizontalMips>
+          <verticalMips>	false	</verticalMips>
+          <noResize>	false	</noResize>
+          <noFilter>	false	</noFilter>
+          <normalMap>	false	</normalMap>
+          <streamable>	true	</streamable>
+          <streamingPriority>	0	</streamingPriority>
+          <mipSize>	0	</mipSize>
+          <maxExtent>	0	</maxExtent>
+          <format>	A8R8G8B8	</format>
+          <formatCompressed>UNKNOWN</formatCompressed>
+          <pattern>.*.png$</pattern>
+        </rule>
+      </directory>
+    </directory>
+  </directory>
+  <directory>
+    <path>spaces</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+  </directory>
+  <directory>
+    <path>speedtree</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+  </directory>
+  <directory>
+    <path>system</path>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+    <directory>
+      <path>fonts</path>
+      <rule>
+        <lodMode>	0	</lodMode>
+        <mipCount>	0	</mipCount>
+        <horizontalMips>	false	</horizontalMips>
+        <verticalMips>	false	</verticalMips>
+        <noResize>	false	</noResize>
+        <noFilter>	false	</noFilter>
+        <normalMap>	false	</normalMap>
+        <streamable>	false	</streamable>
+        <streamingPriority>	0	</streamingPriority>
+        <mipSize>	0	</mipSize>
+        <maxExtent>	0	</maxExtent>
+        <format>	A8R8G8B8	</format>
+        <formatCompressed>UNKNOWN</formatCompressed>
+        <pattern>.*</pattern>
+      </rule>
+    </directory>
+    <directory>
+      <path>	maps	</path>
+      <rule>
+        <lodMode>	0	</lodMode>
+        <mipCount>	0	</mipCount>
+        <horizontalMips>	false	</horizontalMips>
+        <verticalMips>	false	</verticalMips>
+        <noResize>	false	</noResize>
+        <noFilter>	false	</noFilter>
+        <normalMap>	false	</normalMap>
+        <streamable>	false	</streamable>
+        <streamingPriority>	0	</streamingPriority>
+        <mipSize>	0	</mipSize>
+        <maxExtent>	0	</maxExtent>
+        <format>	A8R8G8B8	</format>
+        <formatCompressed>UNKNOWN</formatCompressed>
+        <pattern>.*</pattern>
+      </rule>
+    </directory>
+  </directory>
+  <directory>
+    <path>	vehicles	</path>
+    <rule>
+      <format>	A8R8G8B8	</format>
+      <pattern>.*(\.tga)$</pattern>
+    </rule>
+    <rule>
+      <allowSplit>	true	</allowSplit>
+      <pattern>.*</pattern>
+    </rule>
+    <rule>
+      <allowSplit>	false	</allowSplit>
+      <pattern>.*_HangarShadowMap\.dds$</pattern>
+    </rule>
+    <directory>
+      <path>	american	</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>british</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>chinese</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>czech</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>french</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>german</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>japan</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>russian</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+      <directory>
+        <path>Tank_detail</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+    <directory>
+      <path>sweden</path>
+      <directory>
+        <path>Camouflage</path>
+        <rule>
+          <lodMode>	0	</lodMode>
+          <pattern>.*</pattern>
+        </rule>
+      </directory>
+    </directory>
+  </directory>
+</texture_detail_levels.xml>

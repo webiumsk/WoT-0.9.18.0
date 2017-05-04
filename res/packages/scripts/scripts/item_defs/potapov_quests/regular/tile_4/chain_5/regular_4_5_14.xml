@@ -1,0 +1,77 @@
+<regular_4_5_14.xml>
+  <quests>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_4_5_14_main</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <or>
+            <results>
+              <key>	stunDuration	</key>
+              <greaterOrEqual>	250	</greaterOrEqual>
+            </results>
+            <results>
+              <key>damageAssistedTrack</key>
+              <greaterOrEqual>	1000	</greaterOrEqual>
+            </results>
+            <unit>
+              <or>
+                <results>
+                  <key>	stunDuration	</key>
+                  <greaterOrEqual>	250	</greaterOrEqual>
+                </results>
+                <results>
+                  <key>damageAssistedTrack</key>
+                  <greaterOrEqual>	1000	</greaterOrEqual>
+                </results>
+              </or>
+            </unit>
+          </or>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <freeXP>	4000	</freeXP>
+        <item>	6649	<count>	1	</count></item>
+      </bonus>
+    </potapovQuest>
+    <potapovQuest>
+      <enabled>	true	</enabled>
+      <id>regular_4_5_14_add</id>
+      <serverOnly>	true	</serverOnly>
+      <conditions>
+        <postBattle>
+          <and>
+            <or>
+              <results>
+                <key>	stunDuration	</key>
+                <greaterOrEqual>	250	</greaterOrEqual>
+              </results>
+              <results>
+                <key>damageAssistedTrack</key>
+                <greaterOrEqual>	1000	</greaterOrEqual>
+              </results>
+              <unit>
+                <or>
+                  <results>
+                    <key>	stunDuration	</key>
+                    <greaterOrEqual>	250	</greaterOrEqual>
+                  </results>
+                  <results>
+                    <key>damageAssistedTrack</key>
+                    <greaterOrEqual>	1000	</greaterOrEqual>
+                  </results>
+                </or>
+              </unit>
+            </or>
+            <win>
+            </win>
+          </and>
+        </postBattle>
+      </conditions>
+      <bonus>
+        <premium>	2	</premium>
+      </bonus>
+    </potapovQuest>
+  </quests>
+</regular_4_5_14.xml>

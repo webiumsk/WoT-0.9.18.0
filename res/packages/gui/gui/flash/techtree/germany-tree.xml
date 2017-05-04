@@ -1,0 +1,740 @@
+<germany-tree.xml>
+  <settings>normal</settings>
+  <grid>grid_1<rows>	11	</rows><columns>	12	</columns></grid>
+  <nodes>
+    <G12_Ltraktor>
+      <row>	1	</row>
+      <column>	1	</column>
+      <lines>
+        <G21_PanzerJager_I>
+        </G21_PanzerJager_I>
+        <G07_Pz35t>
+        </G07_Pz35t>
+        <G06_PzII>
+        </G06_PzII>
+        <G93_GW_Mk_VIe>
+        </G93_GW_Mk_VIe>
+        <G53_PzI>
+        </G53_PzI>
+      </lines>
+    </G12_Ltraktor>
+    <G93_GW_Mk_VIe>
+      <row>	1	</row>
+      <column>	2	</column>
+      <lines>
+        <G19_Wespe>
+        </G19_Wespe>
+        <G11_Bison_I>
+          <line>H_Diag</line>
+        </G11_Bison_I>
+      </lines>
+    </G93_GW_Mk_VIe>
+    <G21_PanzerJager_I>
+      <row>	3	</row>
+      <column>	2	</column>
+      <lines>
+        <G20_Marder_II>
+        </G20_Marder_II>
+      </lines>
+    </G21_PanzerJager_I>
+    <G07_Pz35t>
+      <row>	5	</row>
+      <column>	2	</column>
+      <lines>
+        <G08_Pz38t>
+        </G08_Pz38t>
+      </lines>
+    </G07_Pz35t>
+    <G06_PzII>
+      <row>	8	</row>
+      <column>	2	</column>
+      <lines>
+        <G102_Pz_III>
+        </G102_Pz_III>
+        <G82_Pz_II_AusfG>
+          <line>H_Diag</line>
+        </G82_Pz_II_AusfG>
+      </lines>
+    </G06_PzII>
+    <G108_PzKpfwII_AusfD>
+      <row>	9	</row>
+      <column>	2	</column>
+    </G108_PzKpfwII_AusfD>
+    <G53_PzI>
+      <row>	10	</row>
+      <column>	2	</column>
+      <lines>
+        <G63_PzI_ausf_C>
+        </G63_PzI_ausf_C>
+      </lines>
+    </G53_PzI>
+    <G11_Bison_I>
+      <row>	2	</row>
+      <column>	3	</column>
+      <lines>
+        <G22_Sturmpanzer_II>
+        </G22_Sturmpanzer_II>
+      </lines>
+    </G11_Bison_I>
+    <G19_Wespe>
+      <row>	1	</row>
+      <column>	3	</column>
+      <lines>
+        <G95_Pz_Sfl_IVb>
+        </G95_Pz_Sfl_IVb>
+      </lines>
+    </G19_Wespe>
+    <G20_Marder_II>
+      <row>	3	</row>
+      <column>	3	</column>
+      <lines>
+        <G39_Marder_III>
+        </G39_Marder_III>
+        <G09_Hetzer>
+          <line>H_Diag</line>
+        </G09_Hetzer>
+        <G22_Sturmpanzer_II>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </G22_Sturmpanzer_II>
+      </lines>
+    </G20_Marder_II>
+    <G08_Pz38t>
+      <row>	5	</row>
+      <column>	3	</column>
+      <lines>
+        <G52_Pz38_NA>
+        </G52_Pz38_NA>
+      </lines>
+    </G08_Pz38t>
+    <G34_S35_captured>
+      <row>	4	</row>
+      <column>	3	</column>
+    </G34_S35_captured>
+    <G50_T-15>
+      <row>	6	</row>
+      <column>	3	</column>
+    </G50_T-15>
+    <G83_Pz_IV_AusfA>
+      <row>	7	</row>
+      <column>	3	</column>
+      <lines>
+        <G80_Pz_IV_AusfD>
+          <line>H_DU_H</line>
+        </G80_Pz_IV_AusfD>
+      </lines>
+    </G83_Pz_IV_AusfA>
+    <G102_Pz_III>
+      <row>	8	</row>
+      <column>	3	</column>
+      <lines>
+        <G83_Pz_IV_AusfA>
+          <line>	vertical	</line>
+        </G83_Pz_IV_AusfA>
+        <G10_PzIII_AusfJ>
+        </G10_PzIII_AusfJ>
+        <G90_DW_II>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </G90_DW_II>
+      </lines>
+    </G102_Pz_III>
+    <G82_Pz_II_AusfG>
+      <row>	9	</row>
+      <column>	3	</column>
+      <lines>
+        <G86_VK2001DB>
+        </G86_VK2001DB>
+        <G25_PzII_Luchs>
+          <line>H_UD_H</line>
+        </G25_PzII_Luchs>
+      </lines>
+    </G82_Pz_II_AusfG>
+    <G63_PzI_ausf_C>
+      <row>	10	</row>
+      <column>	3	</column>
+      <lines>
+        <G25_PzII_Luchs>
+        </G25_PzII_Luchs>
+      </lines>
+    </G63_PzI_ausf_C>
+    <G100_Gtraktor_Krupp>
+      <row>	11	</row>
+      <column>	3	</column>
+    </G100_Gtraktor_Krupp>
+    <G95_Pz_Sfl_IVb>
+      <row>	1	</row>
+      <column>	4	</column>
+      <lines>
+        <G23_Grille>
+        </G23_Grille>
+      </lines>
+    </G95_Pz_Sfl_IVb>
+    <G22_Sturmpanzer_II>
+      <row>	2	</row>
+      <column>	4	</column>
+      <lines>
+        <G23_Grille>
+          <line>H_DU_H</line>
+        </G23_Grille>
+      </lines>
+    </G22_Sturmpanzer_II>
+    <G39_Marder_III>
+      <row>	3	</row>
+      <column>	4	</column>
+      <lines>
+        <G76_Pz_Sfl_IVc>
+          <line>H_DU_H</line>
+        </G76_Pz_Sfl_IVc>
+        <G101_StuG_III>
+        </G101_StuG_III>
+      </lines>
+    </G39_Marder_III>
+    <G101_StuG_III>
+      <row>	3	</row>
+      <column>	5	</column>
+      <lines>
+        <G05_StuG_40_AusfG>
+        </G05_StuG_40_AusfG>
+      </lines>
+    </G101_StuG_III>
+    <G09_Hetzer>
+      <row>	4	</row>
+      <column>	4	</column>
+      <lines>
+        <G05_StuG_40_AusfG>
+          <line>H_Diag_2C</line>
+          <inPin>BL</inPin>
+        </G05_StuG_40_AusfG>
+      </lines>
+    </G09_Hetzer>
+    <G52_Pz38_NA>
+      <row>	5	</row>
+      <column>	4	</column>
+      <lines>
+        <G09_Hetzer>
+          <line>	vertical	</line>
+        </G09_Hetzer>
+        <G81_Pz_IV_AusfH>
+        </G81_Pz_IV_AusfH>
+      </lines>
+    </G52_Pz38_NA>
+    <G80_Pz_IV_AusfD>
+      <row>	6	</row>
+      <column>	5	</column>
+      <lines>
+        <G81_Pz_IV_AusfH>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </G81_Pz_IV_AusfH>
+      </lines>
+    </G80_Pz_IV_AusfD>
+    <G90_DW_II>
+      <row>	7	</row>
+      <column>	4	</column>
+      <lines>
+        <G13_VK3001H>
+          <line>H_Diag_2C</line>
+          <inPin>BL</inPin>
+        </G13_VK3001H>
+      </lines>
+    </G90_DW_II>
+    <G10_PzIII_AusfJ>
+      <row>	8	</row>
+      <column>	5	</column>
+      <lines>
+        <G28_PzIII_IV>
+        </G28_PzIII_IV>
+      </lines>
+    </G10_PzIII_AusfJ>
+    <G86_VK2001DB>
+      <row>	9	</row>
+      <column>	4	</column>
+      <lines>
+        <G28_PzIII_IV>
+          <line>H_Diag_2C</line>
+          <inPin>BL</inPin>
+        </G28_PzIII_IV>
+      </lines>
+    </G86_VK2001DB>
+    <G25_PzII_Luchs>
+      <row>	10	</row>
+      <column>	5	</column>
+      <lines>
+        <G26_VK1602>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </G26_VK1602>
+      </lines>
+    </G25_PzII_Luchs>
+    <G35_B-1bis_captured>
+      <row>	11	</row>
+      <column>	4	</column>
+    </G35_B-1bis_captured>
+    <G23_Grille>
+      <row>	1	</row>
+      <column>	6	</column>
+      <lines>
+        <G02_Hummel>
+        </G02_Hummel>
+      </lines>
+    </G23_Grille>
+    <G76_Pz_Sfl_IVc>
+      <row>	2	</row>
+      <column>	6	</column>
+      <lines>
+        <G40_Nashorn>
+        </G40_Nashorn>
+      </lines>
+    </G76_Pz_Sfl_IVc>
+    <G05_StuG_40_AusfG>
+      <row>	3	</row>
+      <column>	6	</column>
+      <lines>
+        <G17_JagdPzIV>
+        </G17_JagdPzIV>
+      </lines>
+    </G05_StuG_40_AusfG>
+    <G81_Pz_IV_AusfH>
+      <row>	5	</row>
+      <column>	6	</column>
+      <lines>
+        <G27_VK3001P>
+        </G27_VK3001P>
+        <G15_VK3601H>
+          <line>H_Diag</line>
+        </G15_VK3601H>
+      </lines>
+    </G81_Pz_IV_AusfH>
+    <G46_T-25>
+      <row>	4	</row>
+      <column>	6	</column>
+    </G46_T-25>
+    <G122_VK6501H>
+      <row>	7	</row>
+      <column>	6	</column>
+    </G122_VK6501H>
+    <G26_VK1602>
+      <row>	9	</row>
+      <column>	6	</column>
+      <lines>
+        <G66_VK2801>
+        </G66_VK2801>
+      </lines>
+    </G26_VK1602>
+    <G13_VK3001H>
+      <row>	6	</row>
+      <column>	6	</column>
+      <lines>
+        <G96_VK3002M>
+          <line>H_Diag</line>
+        </G96_VK3002M>
+        <G15_VK3601H>
+        </G15_VK3601H>
+      </lines>
+    </G13_VK3001H>
+    <G28_PzIII_IV>
+      <row>	8	</row>
+      <column>	6	</column>
+      <lines>
+        <G87_VK3002DB_V1>
+        </G87_VK3002DB_V1>
+      </lines>
+    </G28_PzIII_IV>
+    <G107_PzKpfwIII_AusfK>
+      <row>	10	</row>
+      <column>	6	</column>
+    </G107_PzKpfwIII_AusfK>
+    <G116_Turan_III_prot>
+      <row>	11	</row>
+      <column>	6	</column>
+    </G116_Turan_III_prot>
+    <G02_Hummel>
+      <row>	1	</row>
+      <column>	7	</column>
+      <lines>
+        <G49_G_Panther>
+        </G49_G_Panther>
+      </lines>
+    </G02_Hummel>
+    <G40_Nashorn>
+      <row>	2	</row>
+      <column>	7	</column>
+      <lines>
+        <G43_Sturer_Emil>
+        </G43_Sturer_Emil>
+      </lines>
+    </G40_Nashorn>
+    <G17_JagdPzIV>
+      <row>	3	</row>
+      <column>	7	</column>
+      <lines>
+        <G18_JagdPanther>
+        </G18_JagdPanther>
+      </lines>
+    </G17_JagdPzIV>
+    <G41_DickerMax>
+      <row>	4	</row>
+      <column>	7	</column>
+    </G41_DickerMax>
+    <G27_VK3001P>
+      <row>	5	</row>
+      <column>	7	</column>
+      <lines>
+        <G57_PzVI_Tiger_P>
+        </G57_PzVI_Tiger_P>
+      </lines>
+    </G27_VK3001P>
+    <G15_VK3601H>
+      <row>	6	</row>
+      <column>	7	</column>
+      <lines>
+        <G04_PzVI_Tiger_I>
+        </G04_PzVI_Tiger_I>
+      </lines>
+    </G15_VK3601H>
+    <G96_VK3002M>
+      <row>	7	</row>
+      <column>	7	</column>
+      <lines>
+        <G03_PzV_Panther>
+        </G03_PzV_Panther>
+      </lines>
+    </G96_VK3002M>
+    <G87_VK3002DB_V1>
+      <row>	8	</row>
+      <column>	7	</column>
+      <lines>
+        <G24_VK3002DB>
+        </G24_VK3002DB>
+      </lines>
+    </G87_VK3002DB_V1>
+    <G66_VK2801>
+      <row>	9	</row>
+      <column>	7	</column>
+      <lines>
+        <G113_SP_I_C>
+        </G113_SP_I_C>
+      </lines>
+    </G66_VK2801>
+    <G77_PzIV_Schmalturm>
+      <row>	10	</row>
+      <column>	7	</column>
+    </G77_PzIV_Schmalturm>
+    <G49_G_Panther>
+      <row>	1	</row>
+      <column>	8	</column>
+      <lines>
+        <G94_GW_Tiger_P>
+        </G94_GW_Tiger_P>
+      </lines>
+    </G49_G_Panther>
+    <G43_Sturer_Emil>
+      <row>	2	</row>
+      <column>	8	</column>
+      <lines>
+        <G99_RhB_Waffentrager>
+        </G99_RhB_Waffentrager>
+      </lines>
+    </G43_Sturer_Emil>
+    <G18_JagdPanther>
+      <row>	3	</row>
+      <column>	8	</column>
+      <lines>
+        <G71_JagdPantherII>
+        </G71_JagdPantherII>
+        <G37_Ferdinand>
+          <line>H_Diag_2C</line>
+        </G37_Ferdinand>
+      </lines>
+    </G18_JagdPanther>
+    <G109_Steyr_WT>
+      <row>	4	</row>
+      <column>	8	</column>
+    </G109_Steyr_WT>
+    <G57_PzVI_Tiger_P>
+      <row>	5	</row>
+      <column>	8	</column>
+      <lines>
+        <G37_Ferdinand>
+          <line>H_Diag_2C</line>
+          <inPin>BL</inPin>
+        </G37_Ferdinand>
+        <G04_PzVI_Tiger_I>
+          <line>	vertical	</line>
+          <outPin>BM</outPin>
+          <inPin>TM</inPin>
+        </G04_PzVI_Tiger_I>
+        <G67_VK4502A>
+        </G67_VK4502A>
+        <G115_Typ_205B>
+          <line>H_Diag_2C</line>
+        </G115_Typ_205B>
+      </lines>
+    </G57_PzVI_Tiger_P>
+    <G04_PzVI_Tiger_I>
+      <row>	6	</row>
+      <column>	8	</column>
+      <lines>
+        <G16_PzVIB_Tiger_II>
+        </G16_PzVIB_Tiger_II>
+      </lines>
+    </G04_PzVI_Tiger_I>
+    <G24_VK3002DB>
+      <row>	8	</row>
+      <column>	8	</column>
+      <lines>
+        <G88_Indien_Panzer>
+          <line>H_Diag_2C</line>
+        </G88_Indien_Panzer>
+      </lines>
+    </G24_VK3002DB>
+    <G03_PzV_Panther>
+      <row>	7	</row>
+      <column>	8	</column>
+      <lines>
+        <G64_Panther_II>
+        </G64_Panther_II>
+        <G16_PzVIB_Tiger_II>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </G16_PzVIB_Tiger_II>
+      </lines>
+    </G03_PzV_Panther>
+    <G113_SP_I_C>
+      <row>	9	</row>
+      <column>	8	</column>
+      <lines>
+        <G88_Indien_Panzer>
+        </G88_Indien_Panzer>
+        <G126_HWK_12>
+          <line>H_Diag_2C</line>
+        </G126_HWK_12>
+      </lines>
+    </G113_SP_I_C>
+    <G78_Panther_M10>
+      <row>	10	</row>
+      <column>	8	</column>
+    </G78_Panther_M10>
+    <G118_VK4503>
+      <row>	11	</row>
+      <column>	8	</column>
+    </G118_VK4503>
+    <G94_GW_Tiger_P>
+      <row>	1	</row>
+      <column>	9	</column>
+      <lines>
+        <G45_G_Tiger>
+        </G45_G_Tiger>
+      </lines>
+    </G94_GW_Tiger_P>
+    <G99_RhB_Waffentrager>
+      <row>	2	</row>
+      <column>	9	</column>
+      <lines>
+        <G97_Waffentrager_IV>
+        </G97_Waffentrager_IV>
+      </lines>
+    </G99_RhB_Waffentrager>
+    <G71_JagdPantherII>
+      <row>	3	</row>
+      <column>	10	</column>
+      <lines>
+        <G44_JagdTiger>
+        </G44_JagdTiger>
+      </lines>
+    </G71_JagdPantherII>
+    <G37_Ferdinand>
+      <row>	4	</row>
+      <column>	10	</column>
+      <lines>
+        <G44_JagdTiger>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </G44_JagdTiger>
+      </lines>
+    </G37_Ferdinand>
+    <G67_VK4502A>
+      <row>	5	</row>
+      <column>	10	</column>
+      <lines>
+        <G58_VK4502P>
+        </G58_VK4502P>
+      </lines>
+    </G67_VK4502A>
+    <G115_Typ_205B>
+      <row>	6	</row>
+      <column>	10	</column>
+      <lines>
+        <G110_Typ_205>
+        </G110_Typ_205>
+      </lines>
+    </G115_Typ_205B>
+    <G16_PzVIB_Tiger_II>
+      <row>	6	</row>
+      <column>	9	</column>
+      <lines>
+        <G55_E-75>
+          <line>H_UD_H</line>
+        </G55_E-75>
+      </lines>
+    </G16_PzVIB_Tiger_II>
+    <G64_Panther_II>
+      <row>	7	</row>
+      <column>	9	</column>
+      <lines>
+        <G54_E-50>
+          <line>H_UD_H</line>
+        </G54_E-50>
+      </lines>
+    </G64_Panther_II>
+    <G88_Indien_Panzer>
+      <row>	9	</row>
+      <column>	10	</column>
+      <lines>
+        <G91_Pro_Ag_A>
+        </G91_Pro_Ag_A>
+      </lines>
+    </G88_Indien_Panzer>
+    <G126_HWK_12>
+      <row>	10	</row>
+      <column>	10	</column>
+      <lines>
+        <G103_RU_251>
+        </G103_RU_251>
+        <G91_Pro_Ag_A>
+          <line>H_Diag</line>
+          <inPin>BL</inPin>
+        </G91_Pro_Ag_A>
+      </lines>
+    </G126_HWK_12>
+    <G114_Skorpian>
+      <row>	4	</row>
+      <column>	9	</column>
+    </G114_Skorpian>
+    <G119_Pz58_Mutz>
+      <row>	10	</row>
+      <column>	9	</column>
+    </G119_Pz58_Mutz>
+    <G106_PzKpfwPanther_AusfF>
+      <row>	11	</row>
+      <column>	9	</column>
+    </G106_PzKpfwPanther_AusfF>
+    <G51_Lowe>
+      <row>	11	</row>
+      <column>	10	</column>
+    </G51_Lowe>
+    <G45_G_Tiger>
+      <row>	1	</row>
+      <column>	11	</column>
+      <lines>
+        <G61_G_E>
+        </G61_G_E>
+      </lines>
+    </G45_G_Tiger>
+    <G97_Waffentrager_IV>
+      <row>	2	</row>
+      <column>	11	</column>
+      <lines>
+        <G121_Grille_15_L63>
+        </G121_Grille_15_L63>
+      </lines>
+    </G97_Waffentrager_IV>
+    <G44_JagdTiger>
+      <row>	3	</row>
+      <column>	11	</column>
+      <lines>
+        <G72_JagdPz_E100>
+        </G72_JagdPz_E100>
+      </lines>
+    </G44_JagdTiger>
+    <G58_VK4502P>
+      <row>	5	</row>
+      <column>	11	</column>
+      <lines>
+        <G92_VK7201P>
+        </G92_VK7201P>
+      </lines>
+    </G58_VK4502P>
+    <G110_Typ_205>
+      <row>	6	</row>
+      <column>	11	</column>
+      <lines>
+        <G42_Maus>
+        </G42_Maus>
+      </lines>
+    </G110_Typ_205>
+    <G55_E-75>
+      <row>	7	</row>
+      <column>	11	</column>
+      <lines>
+        <G56_E-100>
+        </G56_E-100>
+      </lines>
+    </G55_E-75>
+    <G54_E-50>
+      <row>	8	</row>
+      <column>	11	</column>
+      <lines>
+        <G73_E50_Ausf_M>
+        </G73_E50_Ausf_M>
+      </lines>
+    </G54_E-50>
+    <G91_Pro_Ag_A>
+      <row>	9	</row>
+      <column>	11	</column>
+      <lines>
+        <G89_Leopard1>
+        </G89_Leopard1>
+      </lines>
+    </G91_Pro_Ag_A>
+    <G103_RU_251>
+      <row>	10	</row>
+      <column>	11	</column>
+      <lines>
+        <G125_Spz_57_Rh>
+        </G125_Spz_57_Rh>
+      </lines>
+    </G103_RU_251>
+    <G105_T-55_NVA_DDR>
+      <row>	11	</row>
+      <column>	11	</column>
+    </G105_T-55_NVA_DDR>
+    <G61_G_E>
+      <row>	1	</row>
+      <column>	12	</column>
+    </G61_G_E>
+    <G121_Grille_15_L63>
+      <row>	2	</row>
+      <column>	12	</column>
+    </G121_Grille_15_L63>
+    <G72_JagdPz_E100>
+      <row>	3	</row>
+      <column>	12	</column>
+    </G72_JagdPz_E100>
+    <G92_VK7201P>
+      <row>	5	</row>
+      <column>	12	</column>
+    </G92_VK7201P>
+    <G42_Maus>
+      <row>	6	</row>
+      <column>	12	</column>
+    </G42_Maus>
+    <G56_E-100>
+      <row>	7	</row>
+      <column>	12	</column>
+    </G56_E-100>
+    <G73_E50_Ausf_M>
+      <row>	8	</row>
+      <column>	12	</column>
+    </G73_E50_Ausf_M>
+    <G89_Leopard1>
+      <row>	9	</row>
+      <column>	12	</column>
+    </G89_Leopard1>
+    <G125_Spz_57_Rh>
+      <row>	10	</row>
+      <column>	12	</column>
+    </G125_Spz_57_Rh>
+  </nodes>
+</germany-tree.xml>

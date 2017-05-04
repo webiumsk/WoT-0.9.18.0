@@ -1,0 +1,68 @@
+<_default_.xml>
+  <minPlayersInTeam>	0	</minPlayersInTeam>
+  <maxPlayersInTeam>	15	</maxPlayersInTeam>
+  <maxTeamsInArena>	2	</maxTeamsInArena>
+  <minTeamsInArena>	2	</minTeamsInArena>
+  <runDelay>	30	</runDelay>
+  <roundLength>	900	</roundLength>
+  <winnerIfTimeout>	0	</winnerIfTimeout>
+  <winnerIfExtermination>	0	</winnerIfExtermination>
+  <artilleryPreparationChance>0.0</artilleryPreparationChance>
+  <wwmusic>music_combat</wwmusic>
+  <wwloadingMusic>music_main_menu</wwloadingMusic>
+  <wwambientSound>ambient_wind_summer_01</wwambientSound>
+  <umbraEnabled>	1	</umbraEnabled>
+  <batchingEnabled>	0	</batchingEnabled>
+  <defaultReverbPreset>
+  </defaultReverbPreset>
+  <explicitRequestOnly>	false	</explicitRequestOnly>
+  <defaultGroundEffect>	None	</defaultGroundEffect>
+  <wwbattleCountdownTimerSound>timer</wwbattleCountdownTimerSound>
+  <waypoints>
+  </waypoints>
+  <battleScenarios>
+  </battleScenarios>
+  <gameplayTypes>
+    <ctf>
+      <battleEndWarningAppearTime>	120	</battleEndWarningAppearTime>
+      <battleEndWarningDuration>	5	</battleEndWarningDuration>
+      <battleEndingSoonTime>	60	</battleEndingSoonTime>
+    </ctf>
+    <domination>
+      <battleEndWarningAppearTime>	120	</battleEndWarningAppearTime>
+      <battleEndWarningDuration>	5	</battleEndWarningDuration>
+      <battleEndingSoonTime>	60	</battleEndingSoonTime>
+    </domination>
+    <assault>
+      <battleEndWarningAppearTime>	120	</battleEndWarningAppearTime>
+      <battleEndWarningDuration>	5	</battleEndWarningDuration>
+      <battleEndingSoonTime>	60	</battleEndingSoonTime>
+      <roundLength>	600	</roundLength>
+      <winnerIfTimeout>	1	</winnerIfTimeout>
+    </assault>
+    <ctf2>
+      <battleEndWarningAppearTime>	120	</battleEndWarningAppearTime>
+      <battleEndWarningDuration>	5	</battleEndWarningDuration>
+      <battleEndingSoonTime>	60	</battleEndingSoonTime>
+    </ctf2>
+    <domination2>
+      <battleEndWarningAppearTime>	120	</battleEndWarningAppearTime>
+      <battleEndWarningDuration>	5	</battleEndWarningDuration>
+      <battleEndingSoonTime>	60	</battleEndingSoonTime>
+    </domination2>
+    <assault2>
+      <battleEndWarningAppearTime>	120	</battleEndWarningAppearTime>
+      <battleEndWarningDuration>	5	</battleEndWarningDuration>
+      <battleEndingSoonTime>	60	</battleEndingSoonTime>
+      <roundLength>	420	</roundLength>
+      <winnerIfTimeout>	1	</winnerIfTimeout>
+      <winnerIfExtermination>	1	</winnerIfExtermination>
+    </assault2>
+    <sandbox>
+      <battleEndWarningAppearTime>	120	</battleEndWarningAppearTime>
+      <battleEndWarningDuration>	5	</battleEndWarningDuration>
+      <battleEndingSoonTime>	60	</battleEndingSoonTime>
+    </sandbox>
+  </gameplayTypes>
+  <preloadSoundBanks>fort_area.bnk ; hangar_v2.bnk ; ambient.bnk</preloadSoundBanks>
+</_default_.xml>
